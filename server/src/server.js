@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
   res.status(200).send('Hello World!');
 });
 
+app.get('/error', (req, res, next) => {
+  throw new Error('Forced Error for Testing');
+});
+
+
 app.use('*', notFound);
 app.use(errorHandler);
 
