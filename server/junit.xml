@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="0.367">
+  <testsuite name="404 Error Handler" errors="0" failures="0" skipped="0" timestamp="2023-12-23T01:49:00" time="0.333" tests="3">
+    <testcase classname="404 Error Handler It should respond with a 404 status" name="404 Error Handler It should respond with a 404 status" time="0.013">
+    </testcase>
+    <testcase classname="404 Error Handler It should return a JSON object with the error details" name="404 Error Handler It should return a JSON object with the error details" time="0.004">
+    </testcase>
+    <testcase classname="404 Error Handler It should log the error" name="404 Error Handler It should log the error" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

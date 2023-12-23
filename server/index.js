@@ -1,3 +1,3 @@
-import { start } from './src/server.js'; // Note the '.js' extension
+const { start } = require('./src/server');
 
 start();
